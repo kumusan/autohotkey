@@ -1,0 +1,12 @@
+vk1D & 4::MouseClick,Left
+vk1D & 5::MouseClick,Right
+vk1D & `;::Send,{F2}	;無変換 + セミコロン(;) = F2（名前の変更）
+vk1D & ]::Send,{F3}	;無変換 + ドット(.) = F3（検索用）
+vk1D & D::Send,{Delete}
+vk1D & B::Send,{Backspace}
+^H::Send,{Left}
+^J::Send,{Down}
+^K::Send,{Up}
+^L::Send,{Right}
+NumLock::suspend
+;winキーと変換キーを書く
