@@ -48,4 +48,15 @@ NumLock::suspend
 #IfWinActive ahk_exe Discord.exe
 Alt & J::Send,{Alt down}{Down}{Alt up}
 Alt & K::Send,{Alt down}{Up}{Alt up}
+Tab & J::Send,{Alt down}{Shift down}{Down}{Shift up}{Alt up}
+Tab & K::Send,{Alt down}{Shift down}{Up}{Shift up}{Alt up}
 #IfWinActive
+
+;強制終了
+LWin & Q::Send,{Alt down}{F4}{Alt up}
+
+;win + hjkl
+LWin & h::Send,{LWin down}{Left}{LWin up}
+LWin & j::Send,{LWin down}{Down}{LWin up}
+LWin & k::Send,{LWin down}{Up}{LWin up}
+LWin & l::Send,{LWin down}{Right}{LWin up}
